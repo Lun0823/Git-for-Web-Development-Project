@@ -22,8 +22,16 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
 1. What is git? What is the difference between git and GitHub?
+Git is an open source distribution version control system. It is a system that can be used within a group of developers to originate, change, share, and store, information or data. The difference between git and GitHub is that git is the software and GitHub is the Hardware.
 2. Why do we create a branch? 
+We create braches so that one developer can share and make changes with other developers.
 3. What is the purpose of a pull request? 
+The purpose of a pull is to make an update to a local repository. Also, to let your team know that there are changes to review.
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+git checkout <branchname>
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+- git fetch: fetches or retrieves a particular file.
+- git merge: used to merge a different branch into the active one.
+- git pull: fetches and merges changes on the remote server to your working directory.
 6. What is a merge conflict? How do you resolve a merge conflict? 
+A merge conflict is when someone else has made changes to the same code as someone else and the merge button can't be used from the pull request to merge. To resolve this; one must pull the changes to the local repo and fix them there.
